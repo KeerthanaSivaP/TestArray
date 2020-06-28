@@ -1,12 +1,12 @@
-package TestArray;
+package Test_Array;
 import java.util.Scanner;
-public class TestArray
+class TestArray
 {
     public static void main(String[] args) 
     {
         int n, temp;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter no. of elements you want in array:");
+        System.out.print("Enter no. elements you want in array:");
         n = s.nextInt();
         int a[] = new int[n];
         System.out.println("Enter all the elements:");
