@@ -6,11 +6,7 @@ class TestArray
     {
         int n, temp;
         Scanner s = new Scanner(System.in);
-<<<<<<< HEAD
         System.out.print("Enter no. elements you want in array:");
-=======
-        System.out.print("Enter no. of elements:");
->>>>>>> b5bffa24be490825a0ec10fffccced97fd202f43
         n = s.nextInt();
         int a[] = new int[n];
         System.out.println("Enter all the elements:");
